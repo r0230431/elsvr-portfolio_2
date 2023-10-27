@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Els Van Rompaey">
+    <title>Els Van Rompaey - Contact</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!--css style sheet-->
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header class="h1 fs-1 fw-bold p-3 my-3 bg-pink text-dblue text-center">Els Van Rompaey</header>
+        
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dblue">
+            <div class="container-fluid">               
+                <a class="navbar-brand" href="index.html">
+                    <img src="favicon/favicon-32x32.png" alt="Favicon" width="30" height="30" class="d-inline-block align-text-top">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <div class="navbar-nav">
+                      <a class="nav-link text-white" href="index.html">Home</a>
+                      <a class="nav-link text-white" href="cv.html">Curriculum Vitae</a>
+                      <a class="nav-link text-white" href="ervaring.html">Ervaring</a>
+                      <a class="nav-link text-white" href="hobby.html">Hobby</a>
+                      <a class="nav-link text-pink" href="contact.html">Contact</a>
+                    </div>
+                  </div>
+                
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Zoeken..." aria-label="Zoeken">
+                    <button class="btn btn-outline-light" type="submit">Zoek</button>
+                </form>
+            </div>
+          </nav>
+
+        <main class="container">
+
+            <h2 class="fs-1 p-3 mt-3 mb-5 text-center h2-style">Contact</h2>
+
+            <div class="d-flex flex-wrap flex-lg-nowrap justify-content-center">
+                <div class="d-flex flex-column align-items-center mb-3">
+                    <img src="images/contact_afbeelding1.jpg" alt="Ouderwetse typemachine met brief" title="Contact afbeelding 1" class="img-fluid contact-image rounded shadow m-5">
+                   
+                    <div class="d-flex justify-content-center bg-lblue text-dblue rounded shadow-lg p-4 mb-5">
+                        <a href="https://be.linkedin.com/in/els-van-rompaey-5966aa17" target="_blank"><img src="images/LI-In-Bug.png" alt="Logo LinkedIn" title="Logo LinkedIn" class="logo-size py-3"></a> 
+                        <a href="https://be.linkedin.com/in/els-van-rompaey-5966aa17" target="_blank" class="d-flex align-items-center link-offset-2 link-underline link-underline-opacity-0 url">Bezoek mijn LinkedIn-profiel</a>
+                    </div>
+                </div>   
+
+                <div class="mx-5">
+                    <div>
+                        <h3 class="fw-bold text-center text-pink">Contactformulier</h3>
+
+                        <form class="mt-3 p-3" method="post" action="https://tm-statweb.be/sendmail.php" enctype="multipart/form-data">
+                            <div class="row g-3 border-color position-relative p-3">                       
+                
+                                <fieldset>
+                                    <legend class="mb-3 fw-bold text-dblue">Persoonlijke gegevens</legend>
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput1" class="form-label text-dblue">Voornaam:</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Voornaam" required>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="formGroupExampleInput2" class="form-label text-dblue">Familienaam:</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Familienaam" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput3" class="form-label text-dblue">Emailadres:</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="naam@voorbeeld.com" required>
+                                    </div>
+                                </fieldset>
+                                
+                                <fieldset>
+                                    <legend class="mb-3 fw-bold text-dblue">Bericht</legend>
+                                    <div>
+                                        <label for="exampleFormControlSelect" class="form-label mb-3 text-dblue">Onderwerp:</label>
+                                        <select class="form-select mb-3 text-dblue" aria-label="exampleFormControlSelect" id="exampleFormControlSelect">
+                                            <option selected>&nbsp;</option>
+                                            <option value="informatie">Ik wens meer informatie</option>
+                                            <option value="opmerking">Ik heb een opmerking</option>
+                                            <option value="andere">Andere</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-5">
+                                        <label for="exampleFormControlTextarea1" class="form-label text-dblue">Bericht:</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" cols="75" required></textarea>
+                                    </div>
+                                </fieldset>
+                            
+                                <div>
+                                    <input class="btn btn-lg position-absolute bottom-0 start-50 translate-middle-x mb-2 bg-dblue text-white" type="submit" value="Verzenden">
+                                </div>                   
+                            </div>
+                        </form>
+                    </div>        
+                </div>
+            </div>
+        </main>   
+        
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; Copyright</p>
+        
+            <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="favicon/favicon-32x32.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="cv.html" class="nav-link px-2 text-body-secondary">Curriculum Vitae</a></li>
+            <li class="nav-item"><a href="ervaring.html" class="nav-link px-2 text-body-secondary">Ervaring</a></li>
+            <li class="nav-item"><a href="hobby.html" class="nav-link px-2 text-body-secondary">Hobby</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/*Algemene styling*/
+
+.h2-style {
+    color:#EB5350;
+    font-weight: bolder;
+    border-bottom: 2px solid #EB5350;
+}
+
+.text-dblue {
+    color:#141E46;
+}
+
+.text-pink {
+    color:#EB5350;
+}
+
+.text-lblue {
+    color: #DBDFEA;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.bg-dblue {
+    background-color: #141E46;
+}
+
+.bg-pink {
+    background-color: #EB5350;
+}
+
+.bg-lblue {
+    background-color: #DBDFEA;
+}
+
+p a:hover, td a:hover, a.url:hover {
+    font-weight: bold;
+    color:#EB5350;
+    text-decoration: none;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+    background-color:#EB5350;
+    color:#141E46;
+}
+
+/*Index styling*/
+img.index-portret {
+    max-width: 30%;
+    min-width: 300px;
+}
+
+
+/*cv styling*/
+td.cv-left {
+    font-weight:900;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+tr.cv-bottom {
+    border-bottom: 0.5px solid #141E46;
+}
+
+td.cv-right {
+    font-weight: 900;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+td.cv-italic {
+    font-style: italic;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+img.cv-style {
+    min-width: 400px;
+}
+
+/*Hobby styling*/
+img.hobby-portret {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/*Contact styling*/
+img.logo-size {
+    width: 50px;
+}
+
+.contact-image {
+    max-width: 300px;
+}
+
+.border-color {
+    border: 2px solid #EB5350;
+    border-radius: 5px;
+}
