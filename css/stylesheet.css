@@ -34,7 +34,7 @@
     background-color: #DBDFEA;
 }
 
-p a:hover, td a:hover, a.url:hover {
+a:hover {
     font-weight: bold;
     color:#EB5350;
     text-decoration: none;
@@ -47,8 +47,8 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 
 /*Index styling*/
 img.index-portret {
-    max-width: 30%;
-    min-width: 300px;
+    min-width: 200px;
+    max-width: 80%;
 }
 
 
@@ -95,7 +95,7 @@ img.logo-size {
 }
 
 .contact-image {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .border-color {
