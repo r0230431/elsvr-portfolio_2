@@ -46,9 +46,9 @@ input[type="submit"]:hover, input[type="submit"]:focus{
 }
 
 /*Index styling*/
-img.index-portret {
+img.portret {
     min-width: 200px;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 
@@ -86,7 +86,6 @@ img.cv-style {
 /*Hobby styling*/
 img.hobby-portret {
     max-width: 100%;
-    object-fit: contain;
 }
 
 /*Contact styling*/
