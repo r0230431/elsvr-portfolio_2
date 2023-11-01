@@ -103,6 +103,11 @@ img.logo-size {
 }
 
 
-#recipeCarousel .img-fluid {
+#recipeCarousel img {
     height:250px;
+    background-color: #FFFFFF;
+}
+
+#recipeCarousel .glide__arrow {
+    color:#000;
 }
