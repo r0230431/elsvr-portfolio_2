@@ -102,3 +102,9 @@ img.logo-size {
 #recipeCarousel .glide__arrow {
     color:#000;
 }
+
+@media (width < 992px){
+    #recipeCarousel img{
+        height: 125px;
+    }
+}
